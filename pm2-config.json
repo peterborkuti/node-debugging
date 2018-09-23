@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "robot",
+            "script": "calculator-robot/calculator-robot.js",
+            "exec-mode": "fork"
+        },
+        {
+            "name": "robotapp",
+            "script": "robot-app/robot_app.js",
+            "node_args": ["--inspect-brk=127.0.0.1:3002"],
+            "exec-mode": "fork"
+        }
+    ]
+}

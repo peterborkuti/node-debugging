@@ -8,5 +8,7 @@
   },
   "author": "Peter Borkuti",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "pm2": "^3.1.3"
+  }
 }
